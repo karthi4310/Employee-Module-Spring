@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.backend.employee.EmployeeServiceTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.297 s <<< FAILURE! -- in com.backend.employee.EmployeeServiceTest
-com.backend.employee.EmployeeServiceTest.testSaveEmployee -- Time elapsed: 1.095 s <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "com.backend.employee.service.UserService.save(com.backend.employee.dto.UserDTO)" because "<local3>.userService" is null
-	at com.backend.employee.service.EmployeeService.save(EmployeeService.java:31)
-	at com.backend.employee.EmployeeServiceTest.testSaveEmployee(EmployeeServiceTest.java:46)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.396 s -- in com.backend.employee.EmployeeServiceTest
